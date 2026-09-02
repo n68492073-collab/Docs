@@ -36,7 +36,7 @@ from Crypto.Hash import SHA1
 #-----------------------------
 
 # ✅ PINALITAN NG BAGONG TOKEN
-BOT_TOKEN = "8781532811:AAE2h4HC5yo-bCnkN9yYaGBm28kJOM6mwVk"
+BOT_TOKEN = "8781532811:AAHCHsxPBIjTQqEG0dPgrmvh76bLQCIKm98"
 
 ADMIN_ID = [6784382795]
 OWNER_USERNAME = "@Maarkryan"
