@@ -1007,8 +1007,13 @@ async def menu_choice(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_login_email(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
+
+    sessions.setdefault(user_id, {})
     sessions[user_id]["login_email"] = update.message.text.strip()
-    await update.message.reply_text("🔑 Now send your CPM2 password")
+
+    await update.message.reply_text(
+        "✅ Email saved.\n\n🔑 Now send your CPM2 password"
+    )
     return WAIT_LOGIN_PASSWORD
 
 async def handle_login_password(update: Update, context: ContextTypes.DEFAULT_TYPE):
