@@ -1,0 +1,12 @@
+*.db
+*.json
+*.txt
+__pycache__/
+*.pyc
+.env
+coins.json
+cpm_tokens.db
+stars_balance.json
+credentials_backup_*.txt
+detailed_changes_*.txt
+keys_log.json
