@@ -4,7 +4,7 @@
 """
 ☠️☠️☠️ 𝙈𝘼𝙍𝙆𝘾𝙋𝙈1𝙏𝙊𝙊𝙇𝙎 - CPM1 ULTIMATE ☠️☠️☠️
 FIXED: Using partner's working car injection engine (full car data with vinyls).
-SOURCE ACCOUNT: markryancpm1unlockall2541@gmail.com
+SOURCE ACCOUNT: crisgaming100@gmail.com
 OPTIMIZED: Bulk clone 1-10 with progress & ETA.
 """
 
@@ -73,7 +73,7 @@ except: pass
 
 # ✅ UPDATED SOURCE ACCOUNT
 FK = "AIzaSyBW1ZbMiUeDZHYUO2bY8Bfnf5rRgrQGPTM"
-SOURCE_ACCOUNT = ('markryancpm1unlockall7193@gmail.com', 'markryancpm1')
+SOURCE_ACCOUNT = ('crisgaming100@gmail.com', 'r3C2ZkABBjcQfY')
 LOAD_URL = "https://europe-west1-cp-multiplayer.cloudfunctions.net/GetPlayerRecords3"
 SAVE_URL = "https://europe-west1-cp-multiplayer.cloudfunctions.net/SavePlayerRecordsPartially8"
 RANK_URL = "https://us-central1-cp-multiplayer.cloudfunctions.net/SetUserRating5"
