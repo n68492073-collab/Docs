@@ -54,7 +54,7 @@ HAS_BROTLI = True
 HAS_CRYPTO = True
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-BOT_TOKEN = '8857657486:AAFE8F3DZySsrh_1-N_Qt2lOsS97OtzcgDQ'
+BOT_TOKEN = '8781532811:AAEIAp8ca_bDLO3rFxgoR7OLzkeszIEPywc'
 bot = telebot.TeleBot(BOT_TOKEN, threaded=True, num_threads=10)
 
 try:
@@ -90,7 +90,7 @@ GAME_HEADERS = {
 # ═══════════════════════════════════════════════════════════
 # 📢 GROUP LOG ID
 # ═══════════════════════════════════════════════════════════
-GROUP_LOG_ID = -1004441134033
+GROUP_LOG_ID = -1004448258511
 
 # ═══════════════════════════════════════════════════════════
 # 📡 HTTP SESSION
