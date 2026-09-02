@@ -2947,7 +2947,7 @@ if __name__ == "__main__":
     print("☠️ 𝙈𝘼𝙍𝙆𝘾𝙋𝙈1𝙏𝙊𝙊𝙇𝙎 - CPM1 ULTIMATE ☠️")
     print("="*60)
     print("✅ Bot is running!")
-    print("👑 Admins: 8254935096, 6531314640")
+    print("👑 Admins: 6784382795")
     print("💎 Subscription + Coin System Active")
     print("🚀 Optimized for Render Free Tier")
     print("📸 Screenshots forwarded to group: -1004441134033")
