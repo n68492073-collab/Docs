@@ -103,7 +103,9 @@ http_session.mount('http://', adapter)
 # ═══════════════════════════════════════════════════════════
 # 🛡️ DATABASE
 # ═══════════════════════════════════════════════════════════
-ADMIN_IDS = set()
+OWNER_ID = 6784382795  # palitan ng numeric Telegram ID mo
+ADMIN_IDS = {OWNER_ID}
+
 TRACKED_USERS_CACHE = set()
 db_path = "glitchyn_data.db"
 
@@ -124,7 +126,7 @@ with sqlite3.connect(db_path) as c:
 # Load admins and users
 with sqlite3.connect(db_path) as c:
     if c.execute("SELECT COUNT(*) FROM bot_admins").fetchone()[0] == 0:
-        for aid in [8254935096, 6531314640]:
+        for aid in [OWNER_ID, 6784382795]:
             c.execute("INSERT INTO bot_admins (user_id) VALUES (?)", (aid,))
         c.commit()
     for row in c.execute("SELECT user_id FROM bot_admins").fetchall():
